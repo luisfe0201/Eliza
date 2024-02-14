@@ -1,0 +1,41 @@
+var audio = document.getElementById("my-audio");
+var playPauseButton = document.getElementById("play-pause-button");
+
+
+playPauseButton.onclick = function() {
+  if (audio.paused) {
+    audio.play();
+    playPauseButton.innerHTML = "Stop";
+  } else {
+    audio.pause();
+    playPauseButton.innerHTML = "Play";
+  }
+};
+
+var audio1 = document.getElementById("ama");
+var playPauseButton = document.getElementById("ma");
+
+
+playPauseButton.onclick = function() {
+  if (audio1.paused) {
+    audio1.play();
+    playPauseButton.innerHTML = "";
+  } else {
+    audio1.pause();
+    playPauseButton.innerHTML = "";
+  }
+};
+
+var audio2 = document.getElementById("athi");
+var playPauseButton = document.getElementById("thi");
+
+
+playPauseButton.onclick = function() {
+  if (audio2.paused) {
+    audio2.play();
+    playPauseButton.innerHTML = "";
+  } else {
+    audio2.pause();
+    playPauseButton.innerHTML = "";
+  }
+};
